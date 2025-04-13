@@ -4,21 +4,29 @@
         <title>Latihan 2</title>
     </head>
     <body>
-        <form action="" method="post">
-            <label for="name">Nama:</label>
+        <h1 style="color:plum;">Identity Form</h1>
+        <form action="https://www.google.com" method="post">
+            <label for="name">Name :</label>
             <input id="name" type="text">
             <br/>
-            <input type="password" required>
+            <label for="age" >Age :</label>
+            <input type="number" min="20" max="50">
             <br/>
-            <input type="checkbox">
+            <p><b>Who is your bias?</b></p>
+            <select>
+                <option>Mark lee</option>
+                <option>Mingyu</option>
+                <option>Jeno</option>
+                <option>Seungcheol</option>
+            </select>
             <br/>
-            <input type="radio">
-            <br/>
-            <input type="number" min="1" max="10">
-            <br/>
-            <textarea row="10"cols="64">Ketik di sini</textarea>
-            <br/>
-            <input type="submit" value="OK">
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="Javascript" name="fav_language" value="Javascript">
+            <label for="Javascript">Javascript</label><br>
+            <input type="Submit" value="Submit">
         </form>
     </body>
 </html>
